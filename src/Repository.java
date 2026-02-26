@@ -3,9 +3,9 @@ import java.util.*;
 
 public class Repository {
 
-    private final String DB_URL = "jdbc:mysql://127.0.0.1:3306/cc3_task3?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Manila";
+    private final String DB_URL = "jdbc:mysql:/localhost:3306/cc3_task3?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Manila";
     private final String USER = "root";
-    private final String PASS = "kyhoon08081997";
+    private final String PASS = "kyhoon0808";
     private Connection conn;
 
     public Repository() throws Exception {
